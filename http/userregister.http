@@ -1,0 +1,11 @@
+###
+POST http://localhost:8081/api/user/register
+Content-Type: application/json
+
+{
+    "username": "cesardiaz",
+    "password": "654321",
+    "first_name": "Cesar Augusto",
+    "last_name": "Diaz Arriaga",
+    "email": "cesar@email.com"
+}
