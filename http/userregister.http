@@ -1,11 +1,16 @@
 ###
+GET http://localhost:8081/index.html
+
+###
 POST http://localhost:8081/api/user/register
 Content-Type: application/json
+Authorization: Basic dXNlcjoxMjM0NTY=
+# user:5b137eb1-5d90-46a2-a3af-dfdcfa62a02e en Base64
 
 {
-    "username": "cesardiaz",
+    "username": "cesar6",
     "password": "654321",
     "first_name": "Cesar Augusto",
     "last_name": "Diaz Arriaga",
-    "email": "cesar@email.com"
+    "email": "cesar6@email.com"
 }
